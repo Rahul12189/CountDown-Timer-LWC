@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<apiVersion>57.0</apiVersion>
+	<isExposed>true</isExposed>
+	<masterLabel>Dynamic obj count down check box</masterLabel>
+	<description>Admin CheckBox for Dynamic CountDown</description>
+	<targets>
+		<target>lightning__AppPage</target>
+		<target>lightning__HomePage</target>
+		<target>lightning__RecordPage</target>
+		<target>lightningCommunity__Page</target>
+	</targets>
+	<targetConfigs>
+		<targetConfig targets="lightning__RecordPage">
+            <property name="strTitle" type="String" default="CountDown Timer" label="Enter Title"/>
+            <property name="dateField" type="String" default="Opportunity.CloseDate" label="Enter DateField [ObjectName.fieldName]" required="true"/>
+			<property name="Default" type="Boolean" label="Default" default="true"/>
+			<property name="showWeeks" type="Boolean" label="Show Weeks" />
+			<property name="showDays" type="Boolean" label="Show days" />
+            <property name='showHours' type="Boolean" label="Show Hours" />
+			<property name="showMinutes" type="Boolean" label="Show minutes"  />
+			<property name="showSeconds" type="Boolean" label="Show seconds" />
+			<supportedFormFactors>
+				<supportedFormFactor type="Small"/>
+				<supportedFormFactor type="Large"/>
+			</supportedFormFactors>
+		</targetConfig>
+	</targetConfigs>
+</LightningComponentBundle>

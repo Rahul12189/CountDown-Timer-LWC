@@ -1,0 +1,91 @@
+.expiredStatus
+{
+    font-weight: bold;
+    font-style: normal;
+    color:red;
+    font-size: larger;
+    background-color:dodgerblue;
+}
+
+.noData
+{
+    font-weight: bold;
+    font-style: normal;
+    color:red;
+    font-size: larger;
+    background-color:dodgerblue;
+}
+
+.dWeek{
+    width: fit-content;
+    height:57px;
+    margin-top:10%;
+    
+    background-color:#f08308;
+    color:#CCC;
+    font-family:Verdana, Geneva, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    border-radius:1px;
+    color:white;
+}
+
+
+.dDay{
+    width: fit-content;
+    height:57px;
+    margin-top:10%;
+    
+    background-color:#4885ed;
+    color:#CCC;
+    font-family:Verdana, Geneva, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    border-radius:1px;
+    color:white;
+}
+
+.dHours{
+    width: fit-content;
+    height:57px;
+    
+    margin-top:10%;
+    background-color:#db3236;
+    color:#CCC;
+    font-family:Verdana, Geneva, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    border-radius:1px;
+    color:white;
+}
+
+
+.dMin{
+    width: fit-content;
+    height:57px;
+    
+    margin-top:10%;
+    background-color:#f4c20d;
+    color:#CCC;
+    font-family:Verdana, Geneva, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    border-radius:1px;
+    color:white;
+}
+
+
+
+.dSec{
+    width: fit-content;
+    height:57px;
+    
+    margin-top:10%;
+    background-color:#3cba54;
+    color:#CCC;
+    font-family:Verdana, Geneva, sans-serif;
+    font-style:normal;
+    font-size:15px;
+    border-radius:1px;
+    color:white;
+}

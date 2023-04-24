@@ -1,0 +1,28 @@
+<template>
+    <lightning-card title={strTitle}>
+    <div class="slds-var-m-around_medium">
+    <div>
+    <!-- <strong>{timerData}</strong> -->
+        <lightning-badge label={dWeek}  class="dWeek" if:true={showWeeks}></lightning-badge>
+        <lightning-badge label={dDay}  class="dDay"  if:true={showDays}></lightning-badge>
+        <lightning-badge label={dHour}  class="dHours"  if:true={showHours}></lightning-badge>
+        <lightning-badge label={dMin}  class="dMin" if:true={showMinutes}></lightning-badge>
+        <lightning-badge label={dSec}  class="dSec" if:true={showSeconds}></lightning-badge>
+    </div>
+    <div>
+        <lightning-badge label={dWeek}  class="dWeek" if:true={Default}></lightning-badge>
+        <lightning-badge label={dDay}  class="dDay"  if:true={Default}></lightning-badge>
+        <lightning-badge label={dHour}  class="dHours"  if:true={Default}></lightning-badge>
+        <lightning-badge label={dMin}  class="dMin" if:true={Default}></lightning-badge>
+        <lightning-badge label={dSec}  class="dSec" if:true={Default}></lightning-badge>
+    </div>
+    <div if:true={noDataBoolean} class="slds-align_absolute-center">
+        <h4 class="noData">{noData}</h4>
+
+    </div>
+    </div>
+    <div if:true={boolStatus} class="slds-align_absolute-center">
+        <h3 class="expiredStatus"> {timerData} </h3>
+    </div>
+    </lightning-card>
+</template>
