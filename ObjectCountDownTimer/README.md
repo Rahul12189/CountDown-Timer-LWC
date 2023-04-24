@@ -1,3 +1,4 @@
+![Output](https://user-images.githubusercontent.com/81671445/233899397-adbefe0e-4cab-4a90-947b-a21a3f27137c.png)
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
